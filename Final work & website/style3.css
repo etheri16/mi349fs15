@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+    background-image: url(images/mi-349-final.png);
+    background-color: #cccccc;
+	background-repeat: no-repeat;
+	background size: cover;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left; 
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    background-color: #dddddd;
+}
+
+@media (max-width: 22em) {
+   body {
+      font-size: .9em;
+      padding: 0 1.5em;
+    }
+}
